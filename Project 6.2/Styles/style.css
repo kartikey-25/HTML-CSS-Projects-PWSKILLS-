@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 8%;
+    border-bottom: 2px solid white;
+    padding: 30px 100px ;
+}
+
+nav ul{
+    display: flex;
+}
+
+img[alt="Logo"]{
+    width: 10vw;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Photos/mainBackground.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125vh;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+header div h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+header div p{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+header div button{
+    padding: 8px 30px;
+    font-size: 18px;
+    border-radius: 35px;
+    font-weight: 700;
+    color: white;
+    background-color: #6663e9;
+    border: none;
+    margin-top: 30px;
+}
+
+.div-logo{
+    width: 90vw;
+    height: 20vh;
+    border-radius: 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.logo-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -80px;
+}
+
+.logo-sec h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+body{
+    background-color: #f6f8fa;
+}
+
+.cardImage1{
+    width: 28vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.card1-det{
+    background-color: white;
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: 30px;
+    top: -60px;
+}
+
+.card1-det h3, .card1-det h4{
+    font-size: 24px;
+}
+
+.card1-det h4{
+    color: #6562e8;
+}
+
+.card1-det button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #6562e8;
+    color: white;
+}
+
+.row1, .row2, .row3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.card2, .card5, .card8{
+    position: relative;
+    top: 30px;
+}
+
+.card3, .card4, .card9{
+    position: relative;
+    top: 60px;
+}
+
+.row2, .row3{
+    margin-top: 60px;
+}
+
+.featureImageBg1{
+    width: 45vw;
+}
+
+.featuresImage1{
+    width: 31.5vw;
+    height: 50vh;
+    position: relative;
+    border-radius: 40px;
+    left: -450px;
+    top: -50px;
+}
+
+.Feature-Upper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.leftFeature1{
+    display: flex;
+    width: 40vw;
+}
+
+.rightFeature1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    left: -100px;
+    top: 50px;
+
+}
+
+.rightFeature1 h1{
+    font-size: 60px;
+}
+
+.rightFeature1 p{
+    font-size: 18px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.rightFeature1 button, .bottom-f-left button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    background-color: #6562e8;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.bottom-f-left button{
+    position: relative;
+    left: -140px;
+}
+
+.Feature-Bottom{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10%;
+    height: 60vh;
+}
+
+.featureImageBg2{
+    width: 48vw;
+    position: relative;
+    left: 9px;
+}
+
+.featuresImage2{
+    width: 35vw;
+    height: 50vh;
+    border-radius: 40px;
+    top: -550px;
+    left: 60px;
+    position: relative;
+}
+
+.bottom-f-left{
+    width: 50vw;
+}
+
+.bottom-f-right{
+    width: 50%;
+}
+
+.bottom-f-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: left;
+}
+
+.bottom-f-left h1{
+    font-size: 60px;
+    line-height: 1.5em;
+}
+
+.bottom-f-left p{
+    font-size: 18px;
+    color: gray;
+    margin-top: 20px;
+    position: relative;
+    left: -20px;
+}
+
+.lower-footer{
+    width: 88vw;
+    height: 55vh;
+    border-radius: 50px;
+    margin: auto;
+    background-color: #6562e8;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.lower-footer h1{
+    font-size: 60px;
+    color: white;
+    padding-top: 60px;
+    line-height: 1.3em;
+}
+
+.lower-footer p{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.2rem;
+}
+
+.lower-footer div{
+    width: 35vw;
+    border: 1px solid white;
+    text-align: left;
+    position: relative;
+    left: 220px;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #5654d1;
+    margin-top: 30px;
+}
+
+.input-bar{
+    background-color: #5654d1;
+    border: none;
+    margin-left: 20px;
+}
+
+.input-btn{
+    background-color: #fff;
+    color: #6562e8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    left: 200px;
+    top: -60px;
+}
+
+.footer-nav ul li a{
+    color: black;
+}
+
+.footer-nav ul li{
+    padding: 10px 0;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.facebook, .instagram{
+    width: 45px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.twitter{
+    width: 42px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+footer div p{
+    font-size: 20px;
+}
+
+
+
